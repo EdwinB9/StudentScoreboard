@@ -1,7 +1,6 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
-
 package app.grades;
 
 import java.time.LocalDate;
@@ -11,16 +10,17 @@ import java.time.LocalDate;
  * @author Edwin
  */
 public class App {
-    
+
     public static void Demo() {
         Grades[] mathGrades = {
-            new Grades(5, LocalDate.now())
+            new Grades(5, LocalDate.now()),
+            new Grades(4, LocalDate.parse("2025-05-14"))
         };
 
         Subject[] subjects = {
             new Subject("Math", mathGrades)
         };
-        
+
         Student student = new Student("Cristian", subjects);
         System.out.println(student);
     }
