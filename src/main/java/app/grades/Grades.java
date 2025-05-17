@@ -36,4 +36,9 @@ public class Grades {
         this.dateAssigned = dateAssigned;
     }
 
+    @Override
+    public String toString() {
+        return "Grades{" + "note=" + note + ", dateAssigned=" + dateAssigned + '}';
+    }
+
 }

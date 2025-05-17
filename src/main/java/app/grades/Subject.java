@@ -4,6 +4,8 @@
  */
 package app.grades;
 
+import java.util.Arrays;
+
 /**
  *
  * @author Edwin
@@ -32,6 +34,11 @@ public class Subject {
 
     public void setGrades(Grades[] grades) {
         this.grades = grades;
+    }
+
+    @Override
+    public String toString() {
+        return "Subject{" + "name=" + name + ", grades=" + Arrays.toString(grades) + '}';
     }
 
 }
