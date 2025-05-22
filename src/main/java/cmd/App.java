@@ -1,8 +1,11 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
-package app.grades;
+package cmd;
 
+import model.Grades;
+import model.Student;
+import model.Subject;
 import java.time.LocalDate;
 
 /**
