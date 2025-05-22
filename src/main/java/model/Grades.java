@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package app.grades;
+package model;
 
 import java.time.LocalDate;
 
@@ -34,6 +34,11 @@ public class Grades {
 
     public void setDateAssigned(LocalDate dateAssigned) {
         this.dateAssigned = dateAssigned;
+    }
+
+    @Override
+    public String toString() {
+        return "Grades{" + "note=" + note + ", dateAssigned=" + dateAssigned + '}';
     }
 
 }

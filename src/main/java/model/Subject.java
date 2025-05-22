@@ -2,7 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package app.grades;
+package model;
+
+import java.util.Arrays;
 
 /**
  *
@@ -32,6 +34,11 @@ public class Subject {
 
     public void setGrades(Grades[] grades) {
         this.grades = grades;
+    }
+
+    @Override
+    public String toString() {
+        return "Subject{" + "name=" + name + ", grades=" + Arrays.toString(grades) + '}';
     }
 
 }

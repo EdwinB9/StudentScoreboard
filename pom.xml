@@ -8,6 +8,6 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>21</maven.compiler.release>
-        <exec.mainClass>app.grades.Grades_app</exec.mainClass>
+        <exec.mainClass>cmd.App</exec.mainClass>
     </properties>
 </project>
